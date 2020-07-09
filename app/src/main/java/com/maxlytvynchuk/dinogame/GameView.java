@@ -21,6 +21,7 @@ public class GameView extends SurfaceView implements Runnable {
 
     @Override
     public void run() {
+        // All the time have not valid message
         if(surfaceHolder.getSurface().isValid()) {
             Log.v("MESSAGE", "VALID");
         }else{
